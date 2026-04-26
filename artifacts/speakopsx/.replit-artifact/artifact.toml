@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "SpeakOpsX"
+version = "1.0.0"
+id = "artifacts/speakopsx"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19306
+
+[services.development]
+run = "pnpm --filter @workspace/speakopsx run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/speakopsx", "run", "build" ]
+publicDir = "artifacts/speakopsx/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19306"
+BASE_PATH = "/"
