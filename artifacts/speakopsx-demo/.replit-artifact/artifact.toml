@@ -1,0 +1,31 @@
+kind = "video"
+previewPath = "/speakopsx-demo/"
+title = "SpeakOpsX Demo Video"
+version = "1.0.0"
+id = "artifacts/speakopsx-demo"
+router = "path"
+
+[[integratedSkills]]
+name = "video-js"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/speakopsx-demo/" ]
+localPort = 22229
+
+[services.development]
+run = "pnpm --filter @workspace/speakopsx-demo run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/speakopsx-demo", "run", "build" ]
+publicDir = "artifacts/speakopsx-demo/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22229"
+BASE_PATH = "/speakopsx-demo/"
