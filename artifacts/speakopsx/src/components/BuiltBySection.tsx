@@ -1,4 +1,5 @@
 import { FaGithub, FaLinkedin, FaInstagram, FaYoutube, FaGlobe } from "react-icons/fa";
+import shubhamPhoto from "../assets/shubham.jpeg";
 
 export function BuiltBySection() {
   const links = [

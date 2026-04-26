@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://speakopsx.vercel.app/sitemap.xml
