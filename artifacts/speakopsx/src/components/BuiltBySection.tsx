@@ -17,7 +17,7 @@ export function BuiltBySection() {
           <div className="flex items-center gap-6">
             <div className="w-20 h-20 rounded-full overflow-hidden border-2 border-white/10 shrink-0">
               <img 
-                src="/shubham.jpeg" 
+                src={shubhamPhoto} 
                 alt="Shubham Gupta — Founder of SpeakOpsX" 
                 className="w-full h-full object-cover filter contrast-[1.1]"
               />
