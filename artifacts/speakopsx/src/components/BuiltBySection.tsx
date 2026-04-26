@@ -18,14 +18,13 @@ export function BuiltBySection() {
             <div className="w-20 h-20 rounded-full overflow-hidden border-2 border-white/10 shrink-0">
               <img 
                 src="/shubham.jpeg" 
-                alt="Shubham Gupta — Founder of SpeakOps" 
+                alt="Shubham Gupta — Founder of SpeakOpsX" 
                 className="w-full h-full object-cover filter contrast-[1.1]"
               />
             </div>
             <div>
               <h3 className="text-xl font-bold text-white mb-1">Shubham Gupta</h3>
-              <p className="text-sm text-primary font-medium mb-1">DevOps & Cloud Engineer</p>
-              <p className="text-xs text-muted-foreground">B.Tech IT — Madhav Institute of Technology and Science</p>
+              <p className="text-sm text-primary font-medium">Founder & DevOps / Cloud Engineer</p>
             </div>
           </div>
 

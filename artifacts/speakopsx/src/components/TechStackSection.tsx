@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export function TechStackSection() {
   const stack = [
-    { category: "Speech-to-Text", tech: "OpenAI Whisper", desc: "Local, offline, free" },
+    { category: "Speech-to-Text", tech: "faster-whisper", desc: "Local, offline, optimized inference" },
     { category: "Intent Engine", tech: "LLM (Claude / OpenAI)", desc: "Structured output extraction" },
     { category: "Voice Auth", tech: "Custom MFCC-based", desc: "Speaker verification, no 3rd party" },
     { category: "K8s Client", tech: "Official Python SDK", desc: "Direct cluster communication" },

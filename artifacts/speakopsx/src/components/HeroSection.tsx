@@ -44,7 +44,7 @@ export function HeroSection() {
             className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm mb-6"
           >
             <span className="flex h-2 w-2 rounded-full bg-primary animate-pulse" />
-            <span className="text-xs font-medium tracking-wide text-white/80 uppercase">SpeakOps Open Source</span>
+            <span className="text-xs font-medium tracking-wide text-white/80 uppercase">SpeakOpsX Open Source</span>
           </motion.div>
 
           <motion.h1 
@@ -63,7 +63,7 @@ export function HeroSection() {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="text-lg md:text-xl text-muted-foreground max-w-xl mb-10 font-medium leading-relaxed"
           >
-            SpeakOps is an open-source, voice-driven DevOps orchestration layer that attaches to any CI/CD pipeline — without rewrites, without migrations. Define your infrastructure commands once in YAML. Execute them with your voice.
+            SpeakOpsX is an open-source, voice-driven DevOps orchestration layer built on Zero Trust Security that attaches to any CI/CD pipeline — without rewrites, without migrations. Define your infrastructure commands once in YAML. Execute them with your voice.
           </motion.p>
 
           <motion.div

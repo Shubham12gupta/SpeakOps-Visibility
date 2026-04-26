@@ -4,7 +4,7 @@ import { Mic, Brain, Shield, Blocks, Volume2, ArrowRight } from "lucide-react";
 export function ArchitectureSection() {
   const steps = [
     { icon: Mic, label: "Your Voice" },
-    { icon: Brain, label: "Whisper STT", sub: "(Local, Secure, Offline)" },
+    { icon: Brain, label: "faster-whisper", sub: "(Local, Secure, Offline)" },
     { icon: Brain, label: "Intent Engine", sub: "(LLM matches command)" },
     { icon: Shield, label: "Safety Layer", sub: "(Confirm production)" },
     { icon: Blocks, label: "Connectors", sub: "(K8s, Jenkins, Argo)" },
@@ -23,7 +23,7 @@ export function ArchitectureSection() {
             viewport={{ once: true }}
             className="text-3xl md:text-5xl font-bold mb-6 tracking-tight"
           >
-            How SpeakOps Works
+            How SpeakOpsX Works
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}

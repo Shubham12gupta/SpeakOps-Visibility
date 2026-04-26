@@ -31,7 +31,7 @@ voice_commands:
           <div className="md:w-1/2">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Infrastructure as Code.<br />Executed by Voice.</h2>
             <p className="text-muted-foreground mb-8 text-lg">
-              Everything in SpeakOps is driven by a single <code className="text-primary bg-primary/10 px-1.5 py-0.5 rounded">voice.config.yaml</code> file. You define the intents, the connectors, and the safety rules.
+              Everything in SpeakOpsX is driven by a single <code className="text-primary bg-primary/10 px-1.5 py-0.5 rounded">voice.config.yaml</code> file. You define the intents, the connectors, and the safety rules.
             </p>
             <a 
               href="https://github.com/shubham12gupta" 

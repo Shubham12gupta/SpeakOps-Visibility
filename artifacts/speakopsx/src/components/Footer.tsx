@@ -3,11 +3,11 @@ export function Footer() {
     <footer className="py-8 border-t border-white/5 bg-background">
       <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="flex items-center gap-2">
-          <span className="text-lg font-bold tracking-tight">SpeakOps</span>
+          <span className="text-lg font-bold tracking-tight">SpeakOpsX</span>
         </div>
         
         <p className="text-muted-foreground text-sm text-center md:text-left">
-          &copy; {new Date().getFullYear()} SpeakOps by Shubham Gupta. All rights reserved.
+          &copy; {new Date().getFullYear()} SpeakOpsX by Shubham Gupta. All rights reserved.
         </p>
 
         <div className="flex items-center gap-4 text-xs font-medium text-muted-foreground">

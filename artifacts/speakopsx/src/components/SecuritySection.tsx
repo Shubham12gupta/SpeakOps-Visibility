@@ -21,7 +21,12 @@ export function SecuritySection() {
               <ShieldAlert className="w-8 h-8 text-red-500" />
             </div>
             <div>
-              <h2 className="text-2xl md:text-3xl font-bold mb-6">Security is not an afterthought.</h2>
+              <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-500/10 border border-red-500/30 text-red-300 text-xs font-mono uppercase tracking-wider mb-4">
+                <span className="w-1.5 h-1.5 rounded-full bg-red-400 animate-pulse" />
+                Zero Trust Security
+              </span>
+              <h2 className="text-2xl md:text-3xl font-bold mb-3">Zero Trust. Verify everything. Trust nothing.</h2>
+              <p className="text-muted-foreground mb-6">Every voice, every command, every environment is authenticated, authorized, and audited — no implicit trust, ever.</p>
               <ul className="space-y-4">
                 {points.map((point, i) => (
                   <motion.li

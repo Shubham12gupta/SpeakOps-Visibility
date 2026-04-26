@@ -15,7 +15,7 @@ export function InterfacesSection() {
         <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="md:w-1/3">
             <h3 className="text-2xl font-bold mb-4">Multiple Interfaces</h3>
-            <p className="text-muted-foreground">Voice first, but not voice only. Use SpeakOps wherever you are.</p>
+            <p className="text-muted-foreground">Voice first, but not voice only. Use SpeakOpsX wherever you are.</p>
           </div>
           <div className="md:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-4 w-full">
             {interfaces.map((item, i) => (

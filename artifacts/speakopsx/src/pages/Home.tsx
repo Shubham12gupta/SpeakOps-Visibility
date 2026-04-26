@@ -1,3 +1,4 @@
+import { Header } from "@/components/Header";
 import { HeroSection } from "@/components/HeroSection";
 import { ProblemSection } from "@/components/ProblemSection";
 import { ArchitectureSection } from "@/components/ArchitectureSection";
@@ -15,19 +16,20 @@ import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-background text-foreground selection:bg-primary/30 selection:text-primary-foreground overflow-x-hidden font-sans">
-      <main className="relative z-10">
+    <div id="top" className="min-h-screen bg-background text-foreground selection:bg-primary/30 selection:text-primary-foreground overflow-x-hidden font-sans">
+      <Header />
+      <main className="relative z-10 pt-16">
         <HeroSection />
         <ProblemSection />
-        <ArchitectureSection />
-        <FeaturesSection />
+        <section id="architecture"><ArchitectureSection /></section>
+        <section id="features"><FeaturesSection /></section>
         <InterfacesSection />
         <QuickStartSection />
         <CliCommandsSection />
         <ConfigSection />
         <TechStackSection />
-        <RoadmapSection />
-        <SecuritySection />
+        <section id="roadmap"><RoadmapSection /></section>
+        <section id="security"><SecuritySection /></section>
         <ContributingSection />
         <BuiltBySection />
       </main>

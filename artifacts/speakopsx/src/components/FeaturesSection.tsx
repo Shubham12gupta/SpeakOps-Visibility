@@ -16,7 +16,7 @@ export function FeaturesSection() {
     {
       icon: FileCode2,
       title: "Config-Driven Everything",
-      desc: "One YAML file. Engineer defines it once. SpeakOps handles the rest.",
+      desc: "One YAML file. Engineer defines it once. SpeakOpsX handles the rest.",
       code: `voice_commands:
   - intent: "scale {service} to {replicas}"
     action:
@@ -61,7 +61,7 @@ export function FeaturesSection() {
     {
       icon: Activity,
       title: "Incident Response Mode",
-      desc: "When alerts fire, SpeakOps auto-gathers context.",
+      desc: "When alerts fire, SpeakOpsX auto-gathers context.",
       list: [
         "Failing pods + recent deploys",
         "Error logs + resource pressure",

@@ -17,7 +17,7 @@ export function ContributingSection() {
           
           <h2 className="text-3xl md:text-5xl font-bold mb-6 tracking-tight">Open Source & Early Stage</h2>
           <p className="text-xl text-muted-foreground mb-10 leading-relaxed">
-            SpeakOps is in active development. We welcome contributions, feature requests, and early adopters to help shape the future of voice-driven infrastructure.
+            SpeakOpsX is in active development. We welcome contributions, feature requests, and early adopters to help shape the future of voice-driven infrastructure.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
