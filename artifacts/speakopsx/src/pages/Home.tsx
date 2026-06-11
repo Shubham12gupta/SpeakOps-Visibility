@@ -8,7 +8,6 @@ import { QuickStartSection } from "@/components/QuickStartSection";
 import { CliCommandsSection } from "@/components/CliCommandsSection";
 import { ConfigSection } from "@/components/ConfigSection";
 import { TechStackSection } from "@/components/TechStackSection";
-import { RoadmapSection } from "@/components/RoadmapSection";
 import { SecuritySection } from "@/components/SecuritySection";
 import { ContributingSection } from "@/components/ContributingSection";
 import { BuiltBySection } from "@/components/BuiltBySection";
@@ -28,7 +27,6 @@ export default function Home() {
         <CliCommandsSection />
         <ConfigSection />
         <TechStackSection />
-        <section id="roadmap"><RoadmapSection /></section>
         <section id="security"><SecuritySection /></section>
         <ContributingSection />
         <BuiltBySection />
