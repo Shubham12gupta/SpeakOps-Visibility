@@ -28,7 +28,7 @@ voice_commands:
     <section className="py-24 bg-background">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto flex flex-col md:flex-row gap-12 items-center">
-          <div className="md:w-1/2">
+          <div className="md:w-1/2 min-w-0">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Infrastructure as Code.<br />Executed by Voice.</h2>
             <p className="text-muted-foreground mb-8 text-lg">
               Everything in SpeakOpsX is driven by a single <code className="text-primary bg-primary/10 px-1.5 py-0.5 rounded">voice.config.yaml</code> file. You define the intents, the connectors, and the safety rules.

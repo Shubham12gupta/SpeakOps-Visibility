@@ -87,7 +87,7 @@ export function FeaturesSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
-              className="bg-card border border-white/10 rounded-3xl p-8 hover:border-primary/30 transition-colors flex flex-col"
+              className="bg-card border border-white/10 rounded-3xl p-6 md:p-8 hover:border-primary/30 transition-colors flex flex-col overflow-hidden min-w-0"
             >
               <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-6">
                 <feature.icon className="w-6 h-6 text-primary" />
@@ -99,9 +99,9 @@ export function FeaturesSection() {
                 {feature.examples && (
                   <ul className="space-y-2 text-sm">
                     {feature.examples.map((ex, j) => (
-                      <li key={j} className="flex items-start gap-2">
-                        <span className="text-primary mt-1">•</span>
-                        <span className="text-white/80">{ex}</span>
+                      <li key={j} className="flex items-start gap-2 min-w-0">
+                        <span className="text-primary mt-1 shrink-0">•</span>
+                        <span className="text-white/80 break-words min-w-0">{ex}</span>
                       </li>
                     ))}
                   </ul>
@@ -109,9 +109,9 @@ export function FeaturesSection() {
                 {feature.list && (
                   <ul className="space-y-2 text-sm">
                     {feature.list.map((item, j) => (
-                      <li key={j} className="flex items-center gap-2">
-                        <span className="w-1.5 h-1.5 rounded-full bg-primary/50" />
-                        <span className="text-white/80">{item}</span>
+                      <li key={j} className="flex items-start gap-2 min-w-0">
+                        <span className="w-1.5 h-1.5 rounded-full bg-primary/50 shrink-0 mt-1.5" />
+                        <span className="text-white/80 break-words min-w-0">{item}</span>
                       </li>
                     ))}
                   </ul>

@@ -35,10 +35,10 @@ export function SecuritySection() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: i * 0.1 }}
-                    className="flex items-start gap-3"
+                    className="flex items-start gap-3 min-w-0"
                   >
-                    <span className="text-red-500 mt-1">•</span>
-                    <span className="text-lg text-white/90">{point}</span>
+                    <span className="text-red-500 mt-1 shrink-0">•</span>
+                    <span className="text-lg text-white/90 break-words min-w-0">{point}</span>
                   </motion.li>
                 ))}
               </ul>
